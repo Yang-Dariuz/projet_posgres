@@ -1,0 +1,38 @@
+agence_de_voyage=# select chauffeur.nom_chauf,chauffeur.id_chauf from chauffeur 
+INNER JOIN client ON chauffeur.id_chauf = id_client WHERE id_client<31
+;
+             nom_chauf             | id_chauf 
+-----------------------------------+----------
+ CHANTIX                           |        1
+ CENTER-AL - HOLCUS LANATUS POLLEN |        2
+ TIZANIDINE                        |        3
+ Senna-Lax                         |        4
+ Recede                            |        5
+ Donepezil Hydrochloride           |        6
+ Bisoprolol Fumarate               |        7
+ Sucrets Cough                     |        8
+ Enalapril Maleate                 |        9
+ ZANAFLEX                          |       10
+ Babyteeth                         |       11
+ Nortriptyline Hydrochloride       |       12
+ Acid Reducer                      |       13
+ Lamivudine and Zidovudine         |       14
+ Tretinoin                         |       15
+ Levofloxacin                      |       16
+ Laxative                          |       17
+ Ibuprofen                         |       18
+ Diazepam                          |       19
+ Rocky Mountain Juniper            |       20
+ Chlorhexidine Gluconate           |       21
+ Sucrets Cough                     |       22
+ Flucelvax                         |       23
+ Childrens Ibuprofen               |       24
+ Gillette Odor Shield              |       25
+ Rifampin                          |       26
+ Paroxetine                        |       27
+ PredniSONE                        |       28
+ Acetic Acid                       |       29
+ OcuMend                           |       30
+(30 rows)
+
+
